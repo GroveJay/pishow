@@ -2,10 +2,14 @@ html, body, .main{
 	width: 100%;
 	height: 100%;
 	margin: 0 auto;
+	background-color: #000;
 }
 
 .main{
 	position: absolute;
 	top: 0;
 	left: 0;
+	-webkit-transition: 3s ease-in-out;
+    -moz-transition: 3s ease-in-out;
+    -o-transition: 3s ease-in-out;
 }
